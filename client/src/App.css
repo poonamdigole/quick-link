@@ -1,0 +1,78 @@
+.app-title {
+  text-align: center;
+}
+
+.app-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.link-generation-card{
+ height: 54vh;
+text-align: center;
+margin-top:7%;
+background-color: white;
+border-radius: 10px;
+padding: 10px 20px;
+box-shadow: 0 0 10px black;
+}
+
+.input{
+  display: block;
+  width: 350px;
+  margin: 30px  ;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.input-shortURL {
+  width: 340px;
+  font-size: 18px;
+  padding: 10px 15px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.shortURL-btn{
+display: block;
+background-color: black;
+color: white;
+margin: 25px auto;
+border-radius: 5px;
+font-size: 15px;
+padding: 10px 15px;
+cursor: pointer;
+}
+
+
+.copy-img {
+  height: 16px;
+  cursor: pointer;
+}
+.link-container{
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.link-card{
+  background-color: white;
+  padding: 10px 15px;
+  overflow-x:hidden ;
+  width: 600px;
+  margin: 18px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  
+}
+
+
+.link-heading{
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin:  20px;
+  box-shadow: 0 0 10px black;
+}
